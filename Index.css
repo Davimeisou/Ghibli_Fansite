@@ -1,3 +1,19 @@
 * {
   margin: 0;
 }
+
+.borda{
+ background-color: lightblue; 
+ text-align: center;
+}
+
+.textoT{
+  font-size: 26px;
+  
+}
+
+.sobre{
+  margin: 20px 40px;
+  font-size: 17px;
+  
+}
