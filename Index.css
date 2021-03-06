@@ -2,18 +2,76 @@
   margin: 0;
 }
 
-.borda{
- background-color: lightblue; 
- text-align: center;
+body {
+  height: 1900px;
 }
 
-.textoT{
+/* Home */
+
+/* Fim Home */
+
+/* Sobre */
+.borda {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.textoT {
   font-size: 26px;
-  
 }
 
-.sobre{
+.sobre {
   margin: 20px 40px;
   font-size: 17px;
-  
 }
+
+/* Fim Sobre */
+
+/* Equipe */
+
+/* Fim Equipe */
+
+/* Biblioteca */
+
+.sec_3 {
+  display: flex;
+}
+
+.Bib {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 1200px;
+}
+
+.row {
+  display: flex;
+}
+
+.row td {
+  padding: 20px;
+}
+
+.row td img {
+  width: 160px;
+}
+
+.row td h4 {
+  width: 160px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Garamond, serif;
+  color: cadetblue;
+}
+
+/* Fim Biblioteca */
+
+/* Footer */
+
+.foot {
+  bottom: 0px;
+  width: 100%;
+  position: relative;
+}
+
+/* Fim Footer */
