@@ -7,6 +7,12 @@ body {
   flex-direction: column;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 3300px;
+}
 /* Nav */
 
 .bg {
@@ -20,7 +26,7 @@ body {
 }
 
 nav {
-  background: #50b5cd;
+  background: rgba(121, 194, 218, 0.618);
   transition: 0.5s;
 }
 
@@ -117,23 +123,20 @@ nav .home .home-link:hover {
 .borda {
   background-color: white;
   text-align: center;
-  
 }
 
 .textoT {
   font-family: Garamond, serif;
   font-size: 44px;
   padding: 5px;
-  
 }
 
 .sobre {
   margin: 20px 40px;
   font-size: 17px;
-  
 }
 
-.Hayao{
+.Hayao {
   width: 600px;
   height: 400px;
   float: right;
@@ -144,12 +147,47 @@ nav .home .home-link:hover {
 
 /* Equipe */
 
+.outer > * {
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 20px 0;
+}
+.butao {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  font-family: Garamond;
+  width: 185px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 12px;
+  background-color: rgb(133, 204, 228);
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.butao:hover {
+  background: lightblue;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
 /* Fim Equipe */
 
 /* Biblioteca */
 
 .sec3_foot {
-  height: 1800px;
+  height: 1400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -196,17 +234,17 @@ nav .home .home-link:hover {
 /* Footer */
 
 .rodape {
-  background-color: lightblue;
+  background: rgba(121, 194, 218);
   display: flex;
   justify-content: space-around;
   padding: 15px;
-  height: 220px;
+  height: 190px;
 }
 
 .rodape h3 {
   font-family: Garamond, serif;
   font-size: 18px;
-  color: white;
+  color: black;
   font-weight: bolder;
 }
 
