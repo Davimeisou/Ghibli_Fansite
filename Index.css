@@ -3,7 +3,8 @@
 }
 
 body {
-  height: 1900px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Home */
@@ -33,8 +34,19 @@ body {
 
 /* Biblioteca */
 
-.sec_3 {
+.sec3_foot {
+  height: 1800px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#sec_3 {
+}
+
+#sec_3 h1 {
+  font-family: Garamond, serif;
+  font-size: 34px;
+  padding: 34px;
 }
 
 .Bib {
@@ -44,19 +56,19 @@ body {
   height: 1200px;
 }
 
-.row {
+.linha {
   display: flex;
 }
 
-.row td {
+.linha td {
   padding: 20px;
 }
 
-.row td img {
+.linha td img {
   width: 160px;
 }
 
-.row td h4 {
+.linha td h4 {
   width: 160px;
   text-align: center;
   font-size: 14px;
@@ -68,10 +80,25 @@ body {
 
 /* Footer */
 
-.foot {
-  bottom: 0px;
-  width: 100%;
-  position: relative;
+.rodape {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  height: 220px;
+}
+
+.rodape h3 {
+  font-family: Garamond, serif;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+}
+
+.rodape div {
+  width: 250px;
+  font-family: Garamond, serif;
+  font-size: 14px;
 }
 
 /* Fim Footer */
