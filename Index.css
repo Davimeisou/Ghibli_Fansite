@@ -115,17 +115,29 @@ nav .home .home-link:hover {
 
 /* Sobre */
 .borda {
-  background-color: lightblue;
+  background-color: white;
   text-align: center;
+  
 }
 
 .textoT {
-  font-size: 26px;
+  font-family: Garamond, serif;
+  font-size: 44px;
+  padding: 5px;
+  
 }
 
 .sobre {
   margin: 20px 40px;
   font-size: 17px;
+  
+}
+
+.Hayao{
+  width: 600px;
+  height: 400px;
+  float: right;
+  padding: 30px;
 }
 
 /* Fim Sobre */
